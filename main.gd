@@ -29,7 +29,9 @@ func _create_bricks():
 func _process(delta):
     _handle_input(delta)
     _move_ball(delta)
-    update()
+    queue_redraw()
+
+
 
 func _handle_input(delta):
     var speed = 300
