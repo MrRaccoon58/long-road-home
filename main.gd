@@ -31,6 +31,8 @@ func _process(delta):
     _move_ball(delta)
     queue_redraw()
 
+
+
 func _handle_input(delta):
     var speed = 300
     if Input.is_action_pressed("ui_left"):
